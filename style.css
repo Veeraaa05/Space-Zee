@@ -1,0 +1,751 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+ 
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.123);
+    box-shadow: 2px black;
+}
+.logo img{
+    width: 180px;
+    height: 150px;
+
+}
+.list li{
+    display: inline-block;
+    
+}
+.list li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-right: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.list li a:hover{
+    color: black;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+    border-bottom: 2px solid rgb(105, 6, 6);
+}
+.socialMedias li{
+    display: inline-block;
+    
+}
+.socialMedias li a{
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.socialMedias ul li a :hover{
+    color: rgb(73, 5, 73);
+}
+
+/* Navbar end */
+
+
+/* Banner content */
+
+
+.banner-content{
+    background-color: rgba(135, 207, 235, 0.288);
+    border-radius: 35px;
+    height: 100%;
+    width: 1300px;
+    margin-top: 45px;
+    margin-left: 28px;
+    margin-right: 60px;
+}
+
+.banner-content .container1{
+    display: flex;
+    justify-content: space-around;
+    font-size: em;
+    width: 100%;
+   
+}
+.banner-content .container1 .bannerImage img{
+    margin-left: 100px;
+    width: 70%;
+    height: 100%;
+    float: right;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.banner-content .container1 .bannerContent{
+    margin-left: 30px;
+    margin-top: 17px;
+    width: 60%;
+    
+}
+.banner-content .container1 .bannerContent .container1{
+    display: flex;
+    background-color: white;
+    margin: 30px 15px;
+    border-radius: 50px;
+    justify-content: space-between;
+    justify-items: center;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.142);
+    width: 210px;
+    
+    
+
+}
+.banner-content .container1 .bannerContent .container1 img{
+    width: 80px;
+    height: 45px;
+    margin-left: 10px;
+    
+}
+.banner-content .container1 .bannerContent .container1 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    margin-right: 8px;
+    margin-left: 0px;
+    margin-top: 10px;
+    
+}
+.banner-maintext{
+    font-size: 3em;
+    margin-left: 10px;
+}
+.banner-maintext .banner-maintext h1{
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+
+}
+.banner-maintext {
+    font-size: 2em; /* Adjust as needed */
+    margin-left: 10px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner-maintext .line1 {
+    font-size: 1em; /* Adjust as needed */
+    font-weight: 600;
+}
+
+.banner-maintext .line2 {
+    font-size: 1.2em; /* Adjust as needed */
+    font-weight: 700;
+    margin-top: -10px; /* Adjust for desired spacing */
+}
+
+
+/* clock */
+
+
+
+.button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Styling each button div */
+  .button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:rgba(133, 121, 121, 0.26);
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 35px; 
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+  }
+  span{
+    padding-left: 10px;
+    align-items: center;
+  }
+  
+  
+  
+  /* Icon styling */
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+.bannerContent p{
+    margin-top: 25px;
+    margin-left: 17px;
+    text-align: justify;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* category */
+
+.container3 .container1{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.container3 .container1 h1{
+    
+    font-size: 2em;
+}
+.container3 .container1 a{
+    text-decoration: none;
+    background-color: rgba(135, 207, 235, 0.432);
+    margin: 10px 20px;
+}
+.container3 .container2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.container3 .container2 .breakfast{
+    background: linear-gradient(to bottom,white,rgba(127, 123, 123, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .breakfast img{
+    width: 100px;
+    height: 100px;
+    
+}
+.container3 .container2 .vegan{
+    background: linear-gradient(to bottom,white,rgba(1, 102, 50, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .vegan img{
+    width: 100px;
+    height: 100px;
+    
+}
+.container3 .container2 .meat{
+    background: linear-gradient(to bottom,white,rgba(242, 61, 61, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .meat img{
+    width: 100px;
+    height: 100px;
+}
+.container3 .container2 .dessert{
+    background: linear-gradient(to bottom,white,rgba(255, 191, 54, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .dessert img{
+    width: 100px;
+    height: 100px;
+
+}
+.container3 .container2 .lunch{
+    background: linear-gradient(to bottom,white,rgba(127, 123, 123, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .lunch img{
+    width: 100px;
+    height: 100px;
+}
+.container3 .container2 .chocolate{
+    background: linear-gradient(to bottom,white,rgba(127, 123, 123, 0.155));
+    padding: 10px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.container3 .container2 .chocolate img{
+    width: 100px;
+    height: 100px;
+}
+
+/* middleportion */
+
+
+.middleportion{
+    justify-content: center;
+    margin-top: 130px;
+
+}
+.middleportion h1{
+    padding-left: 460px;
+    font-size: 2em;
+}
+.middleportion p{
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/* card */
+
+.cardsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+    /* background-color: #f5f5f5; */
+    
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+  
+  
+.card {
+    position: relative;
+    width: 400px;
+    background-color: rgba(135, 207, 235, 0.288);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+  
+
+.card-image {
+    width: 100%;
+    height: auto;
+}
+  
+  
+  .card h1 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  
+  .favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    color: #ff5252;
+    cursor: pointer;
+  }
+
+  
+  
+  .button-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  
+  .button-card {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(135, 207, 235, 0.288);
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 35px; 
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    border-radius: 35px;
+  }
+span{
+    padding-left: 10px;
+    align-items: center;
+}
+
+
+/* chef standing with plate */
+  
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+
+.col-2-1 {
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.col-2-1 p{
+    padding-top: 20px;
+    align-items: baseline;
+    line-height: 30px;
+}
+
+
+.col-2-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.col-2-2 img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+
+.learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.learn-more:hover {
+    background-color: #333; 
+}
+
+
+
+/* Insta Post */
+
+.instagram-posts {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 80px;
+}
+
+
+.post {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+
+.post-header {
+    padding: 10px;
+    font-size: 0.9em;
+    color: #999;
+}
+
+
+.post-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.post-content {
+    padding: 10px;
+}
+
+
+.liked-by {
+    color: #333;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.caption {
+    color: #333;
+    font-size: 0.9em;
+}
+
+
+.location {
+    font-weight: bold;
+    color: #555;
+}
+
+
+.liked-by i {
+    color: #ed4956;
+    margin-right: 5px;
+}
+
+
+.VisitOurInstagram {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 580px;
+    border-radius: 20px;
+}
+
+.row-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+
+.col-3-1 {
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.col-3-1 p{
+    padding-top: 20px;
+    align-items: baseline;
+    line-height: 30px;
+}
+
+
+.col-3-2 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Main container for the new card section */
+.new-cardsection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.new-card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+
+.new-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+
+.new-favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.new-favorite-icon:hover {
+    color: #ff6666;
+}
+
+
+.new-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.new-card h1 {
+    font-size: 1.2em;
+    margin: 15px 10px;
+    color: #333;
+}
+
+
+.new-button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.new-button-card,
+.new-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.new-button-card .new-icon,
+.new-button .new-icon {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+/* lastbox */
+
+.emaillastbox{
+    
+    margin-top: 120px;
+    margin-left: 38px;
+    width: 95%;
+    height: 340px;
+    border-radius: 19px;
+    background-color: rgba(135, 207, 235, 0.288);
+}
+.emaillastbox h1{
+    padding-left: 29%;
+    padding-top: 4%;
+    font-size: 2.4em;
+}
+.emaillastbox p{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+ .inneremail{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    width: 50%;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 27%;
+    border-radius: 35px;
+    display: flex;
+}
+
+.inneremail h3{
+    flex: 1;
+    padding-top: 23px;
+    padding-left: 20px;
+} 
+
+.innerandinner{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 7px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.innerandinner h2{
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+.container9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9 .lefts img{
+    width: 180px;
+    height: 150px;
+}
+.container9 .lefts p{
+    margin-left: 25px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.container9 .rights{
+    margin-left: 140px;
+    padding-left: 290px;
+    padding-top: 40px;
+}
+.container9 li{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.container9 li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+.container9 li a:hover{
+    color: orange;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.164);
+}
+.footer h2{
+    color: rgba(0, 0, 0, 0.514);
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.footer span{
+    color: rgb(204, 61, 25);
+}
+
+
+
+
+
+
+

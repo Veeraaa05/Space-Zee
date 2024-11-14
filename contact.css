@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+ 
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.123);
+    box-shadow: 2px black;
+}
+.logo img{
+    width: 180px;
+    height: 150px;
+
+}
+.list li{
+    display: inline-block;
+    
+}
+.list li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-right: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.list li a:hover{
+    color: black;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+    border-bottom: 2px solid rgb(105, 6, 6);
+}
+.socialMedias li{
+    display: inline-block;
+    
+}
+.socialMedias li a{
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.socialMedias ul li a :hover{
+    color: rgb(73, 5, 73);
+}
+
+
+/* ----------------------- */
+
+.middleportion-2{
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.middleportion-2 h1{
+    padding-left: 540px;
+    font-size: 2.5em;
+}
+.middleportion-2 p{
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+/* -----form----- */
+
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+
+.row-4 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    align-items: flex-start; 
+}
+
+
+.col-4-1 {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact-image {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 10px;
+    align-self: flex-start; /* Aligns the image to the top of the form */
+}
+
+
+.col-4-2 {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+
+.form-group {
+    display: flex;
+    gap: 20px;
+}
+
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.input-container label {
+    font-weight: bold;
+    color: #2c2a2a8f;
+}
+
+.input-container input, 
+.input-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: none;
+}
+
+textarea {
+    height: 100px;
+}
+
+
+.submit-button {
+    padding: 12px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #555;
+}
+
+.emaillastbox{
+    
+    margin-top: 120px;
+    margin-left: 38px;
+    width: 95%;
+    height: 340px;
+    border-radius: 19px;
+    background-color: rgba(135, 207, 235, 0.288);
+}
+.emaillastbox h1{
+    padding-left: 29%;
+    padding-top: 4%;
+    font-size: 2.4em;
+}
+.emaillastbox p{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+ .inneremail{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    width: 50%;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 27%;
+    border-radius: 35px;
+    display: flex;
+}
+
+.inneremail h3{
+    flex: 1;
+    padding-top: 23px;
+    padding-left: 20px;
+} 
+
+.innerandinner{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 7px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.innerandinner h2{
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+
+
+.new-cardsection {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 50px;
+}
+
+
+.new-card-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+
+.new-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+
+.new-favorite-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5em;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.new-favorite-icon:hover {
+    color: #ff6666;
+}
+
+
+.new-card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+.new-card h1 {
+    font-size: 1.2em;
+    margin: 15px 10px;
+    color: #333;
+}
+
+
+.new-button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+
+.new-button-card,
+.new-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.new-button-card .new-icon,
+.new-button .new-icon {
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.middleportion-3{
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.middleportion-3 h1{
+    padding-left: 400px;
+    padding-bottom: 50px;
+    font-size: 2.5em;
+}
+
+.container9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9 .lefts img{
+    width: 180px;
+    height: 150px;
+}
+.container9 .lefts p{
+    margin-left: 25px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.container9 .rights{
+    margin-left: 140px;
+    padding-left: 290px;
+    padding-top: 40px;
+}
+.container9 li{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.container9 li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+.container9 li a:hover{
+    color: orange;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.164);
+}
+.footer h2{
+    color: rgba(0, 0, 0, 0.514);
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.footer span{
+    color: rgb(204, 61, 25);
+}
+
+
+
+
+
+
+
+
+
+

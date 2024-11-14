@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+ 
+
+*{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar{
+    padding-right: 15px;
+    padding-left: 15px;
+    
+}
+.navDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.123);
+    box-shadow: 2px black;
+}
+.logo img{
+    width: 180px;
+    height: 150px;
+
+}
+.list li{
+    display: inline-block;
+    
+}
+.list li a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-right: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.list li a:hover{
+    color: black;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+    border-bottom: 2px solid rgb(105, 6, 6);
+}
+.socialMedias li{
+    display: inline-block;
+    
+}
+.socialMedias li a{
+    margin-right: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.socialMedias ul li a :hover{
+    color: rgb(73, 5, 73);
+}
+
+
+/* ----------------------- */
+
+.middleportion-2{
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.middleportion-2 h1{
+    padding-left: 540px;
+    font-size: 2.5em;
+}
+.middleportion-2 p{
+    font-weight: 400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.inneremail-2{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    width: 50%;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 27%;
+    border-radius: 35px;
+    display: flex;
+}
+
+.inneremail-2 h3{
+    flex: 1;
+    padding-top: 23px;
+    padding-left: 20px;
+} 
+
+.innerandinner-2{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 7px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.innerandinner-2 h2{
+    padding-left: 18px;
+    padding-top: 7px;
+}
+
+/* -------------------- */
+
+
+/* .row-3{
+    display: flex;
+
+} */
+
+
+/* Main container for the video section */
+.video-section {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.row-3 {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+.col-3-1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-thumbnail {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.col-3-2 {
+    flex: 2;
+    padding: 0 20px;
+}
+
+.col-3-2 h1 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.col-3-2 p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+.col-3-3 {
+    margin-top: 40px;
+    display: flex;
+    flex: 1;
+    text-align: left;
+    margin-right: 35px;
+}
+.col-3-2 h3{
+    display: 1;
+    font-size: 0.9em;
+    color: #3333339d;
+    margin-top: 25px
+    
+    
+}
+/* .col-3-2 h2{
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: black;
+    
+} */
+.related-thumbnail {
+    
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    
+}
+
+.col-3-3 h1 {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    margin-left: 25px;
+}
+
+.col-3-3 p {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4;
+}
+.makeparagraph{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.479);
+    padding-top: 50px;
+}
+
+
+
+/* ----------------- */
+
+
+
+.pagination {
+    display: inline-flex;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 39%;
+}
+
+
+.page-number, .dots, .next-page {
+    color: black;
+    text-decoration: none;
+    padding: 8px 12px;
+    font-size: 1em;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+
+.page-number.active {
+    background-color: black;
+    color: white;
+}
+
+
+.dots {
+    cursor: default;
+    border: none;
+    padding: 0;
+}
+
+
+.next-page {
+    font-weight: bold;
+}
+
+
+.page-number:hover, .next-page:hover {
+    background-color: gray;
+    color: black;
+}
+
+
+
+.emaillastbox{
+    
+    margin-top: 120px;
+    margin-left: 38px;
+    width: 95%;
+    height: 340px;
+    border-radius: 19px;
+    background-color: rgba(135, 207, 235, 0.288);
+}
+.emaillastbox h1{
+    padding-left: 29%;
+    padding-top: 4%;
+    font-size: 2.4em;
+}
+.emaillastbox p{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 20px;
+    text-align: center;
+}
+ .inneremail{
+    background-color: white;
+    color: rgba(0, 0, 0, 0.404);
+    width: 50%;
+    height: 65px;
+    margin-top: 40px;
+    margin-left: 27%;
+    border-radius: 35px;
+    display: flex;
+}
+
+.inneremail h3{
+    flex: 1;
+    padding-top: 23px;
+    padding-left: 20px;
+} 
+
+.innerandinner{
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 50px;
+    margin-top: 7px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.innerandinner h2{
+    padding-left: 18px;
+    padding-top: 7px;
+}
+.container9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container9 .lefts img{
+    width: 180px;
+    height: 150px;
+}
+.container9 .lefts p{
+    margin-left: 25px;
+    margin-top: -50px;
+    margin-bottom: 30px;
+}
+.container9 .rights{
+    margin-left: 140px;
+    padding-left: 290px;
+    padding-top: 40px;
+}
+.container9 li{
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.container9 li a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+.container9 li a:hover{
+    color: orange;
+    letter-spacing: 2px;
+    transition: ease-out 1s;
+}
+.footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-top: 2px solid rgba(0, 0, 0, 0.164);
+}
+.footer h2{
+    color: rgba(0, 0, 0, 0.514);
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+.footer span{
+    color: rgb(204, 61, 25);
+}
+
+
+
+
+
+
+
+
+
